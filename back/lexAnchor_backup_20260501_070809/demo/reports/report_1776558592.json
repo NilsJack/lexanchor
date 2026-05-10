@@ -1,0 +1,23 @@
+[
+  {
+    "rule_id": "contract.missing_termination",
+    "severity": "critical",
+    "anchor_type": "document_level",
+    "reason": "全篇未发现合同解除或终止相关的独立条款。\n",
+    "recommendation": "补充单方解除权（如根本违约解除、破产解除），并建议争取提前30天书面通知的无因解除权（Convenience Termination）。\n"
+  },
+  {
+    "rule_id": "contract.missing_data_deletion",
+    "severity": "high",
+    "anchor_type": "document_level",
+    "reason": "未发现合同终止后关于业务/用户数据如何处理的明确约定。\n",
+    "recommendation": "补充：合同终止后X日内，Vendor必须安全返还所有客户数据，并在其系统中彻底、不可恢复地销毁数据，提供销毁证明。\n"
+  },
+  {
+    "rule_id": "contract.missing_governing_law",
+    "severity": "high",
+    "anchor_type": "document_level",
+    "reason": "未发现明确的法律适用与争议解决机构（法院/仲裁）约定。\n",
+    "recommendation": "补充适用法律及管辖条款，建议约定由我方所在地法院管辖，或选择明确的仲裁委员会。\n"
+  }
+]

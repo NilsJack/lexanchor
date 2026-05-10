@@ -1,0 +1,1996 @@
+[
+  {
+    "rule_id": "contract.missing_termination",
+    "severity": "critical",
+    "anchor_type": "document_level",
+    "reason": "全篇未发现合同解除或终止相关的独立条款。\n",
+    "recommendation": "补充单方解除权（如根本违约解除、破产解除），并建议争取提前30天书面通知的无因解除权（Convenience Termination）。\n"
+  },
+  {
+    "rule_id": "contract.missing_data_deletion",
+    "severity": "high",
+    "anchor_type": "document_level",
+    "reason": "未发现合同终止后关于业务/用户数据如何处理的明确约定。\n",
+    "recommendation": "补充：合同终止后X日内，Vendor必须安全返还所有客户数据，并在其系统中彻底、不可恢复地销毁数据，提供销毁证明。\n"
+  },
+  {
+    "rule_id": "contract.missing_governing_law",
+    "severity": "high",
+    "anchor_type": "document_level",
+    "reason": "未发现明确的法律适用与争议解决机构（法院/仲裁）约定。\n",
+    "recommendation": "补充适用法律及管辖条款，建议约定由我方所在地法院管辖，或选择明确的仲裁委员会。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "额外增加项目",
+    "location": {
+      "start": 2004,
+      "end": 2010
+    },
+    "context": "不准进行吊柜与地柜之间进行相互抵扣； 3、橱柜不可延展，其中阳台区域，餐厅区域为额外增加项目； 4、标配抽屉为上中下一组，不可进行拆分处理； 5、石英石包管标配展开面积宽度",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "额外增加项目",
+    "location": {
+      "start": 2090,
+      "end": 2096
+    },
+    "context": "300mm，超出300mm需另行计费； 6、窗户位置不做吊柜； 7、包热水器柜为额外增加项目，不进行与吊柜同等价格处理； 9 水槽及水槽龙头 1 套 T&T/欧琳（单槽/双",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "额外增加项目",
+    "location": {
+      "start": 9325,
+      "end": 9331
+    },
+    "context": "不准进行吊柜与地柜之间进行相互抵扣； 3、橱柜不可延展，其中阳台区域，餐厅区域为额外增加项目； 4、标配抽屉为上中下一组，不可进行拆分处理； 5、石英石包管标配展开面积宽度",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "额外增加项目",
+    "location": {
+      "start": 9411,
+      "end": 9417
+    },
+    "context": "300mm，超出300mm需另行计费； 6、窗户位置不做吊柜； 7、包热水器柜为额外增加项目，不进行与吊柜同等价格处理； 备注：超出部分按照超出实际面积根据公司单价结算 5",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "费用另计",
+    "location": {
+      "start": 4264,
+      "end": 4268
+    },
+    "context": "料选用PVC护角条、拉法基石膏，大师内墙底层腻子含人工及材料费用。（不锈钢阳角条费用另计） 10 顶面石膏线角线含安装 单层石膏线（室内周长）宽度≤130mm石膏线，圆",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "费用另计",
+    "location": {
+      "start": 7226,
+      "end": 7230
+    },
+    "context": " 不限量 1、材料选用PVC护角条、拉法基石膏，含人工及材料费用。（不锈钢阳角条费用另计） 14 地漏 1个 潜水艇GF40-10B防臭地漏 六、水电及其它项目工程 1",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "费用另算",
+    "location": {
+      "start": 4316,
+      "end": 4320
+    },
+    "context": "膏线角线含安装 单层石膏线（室内周长）宽度≤130mm石膏线，圆弧、异型、描金等费用另算。 二、卧室施工内容 1 石膏基自流平找平 不限量，全部找平 石膏基自流平找平，",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "费用另算",
+    "location": {
+      "start": 4998,
+      "end": 5002
+    },
+    "context": "膏线角线含安装 单层石膏线（室内周长）宽度≤130mm石膏线，圆弧、异型、描金等费用另算 三、厨房施工内容 1 门套基层 1套 E0级细木工板，墙体转折或者在较薄的丁字",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "按公司ERP定额另计",
+    "location": {
+      "start": 5434,
+      "end": 5444
+    },
+    "context": "线、斜铺、马赛克、腰 线、花片、墙地砖对缝、瓷片非标规格、玻化砖上墙刷背胶等费用按公司ERP定额另计。 6 墙砖阳角45°磨边 不限量 窗角、柱子角、墙角（阳角）位置 7 美缝剂 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "按公司ERP定额另计",
+    "location": {
+      "start": 5948,
+      "end": 5958
+    },
+    "context": "线、斜铺、马赛克、腰 线、花片、墙地砖对缝、瓷片非标规格、玻化砖上墙刷背胶等费用按公司ERP定额另计。 6 墙砖阳角45°磨边 不限量 窗角、柱子角、墙角（阳角）位置 7 美缝剂 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.cost_escalation_risk",
+    "severity": "high",
+    "anchor_type": "text_span",
+    "matched_text": "按公司ERP定额另计",
+    "location": {
+      "start": 6543,
+      "end": 6553
+    },
+    "context": "线、斜铺、马赛克、腰 线、花片、墙地砖对缝、瓷片非标规格、玻化砖上墙刷背胶等费用按公司ERP定额另计。 6 美缝剂 不限量 【东方雨虹/可丽芙】美缝剂 7 顶面批刮腻子 不限量 1",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "要求装修公司提供闭口合同，或明确增项比例上限（如不超过合同总额的5%），并要求所有增项必须经我方书面确认。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 90,
+      "end": 93
+    },
+    "context": "1版】 序号 项目 标配数量 单位 备注 一、 客厅 硬装 部分 1 地面找平 不限量 间 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地板 不",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 132,
+      "end": 135
+    },
+    "context": "量 间 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地板 不限量 间 圣象/八方地板/卢森地板铺贴区域 3 踢脚线 不限量 间 杉木实木踢脚线、",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 161,
+      "end": 164
+    },
+    "context": "0元/平） 2 地板 不限量 间 圣象/八方地板/卢森地板铺贴区域 3 踢脚线 不限量 间 杉木实木踢脚线、配套压条 4 墙顶面批嵌 不限量 间 大师内墙底层腻子 5",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 188,
+      "end": 191
+    },
+    "context": "地板铺贴区域 3 踢脚线 不限量 间 杉木实木踢脚线、配套压条 4 墙顶面批嵌 不限量 间 大师内墙底层腻子 5 门套基层 1 套 E0级细木工板 6 石膏线 不限量",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 228,
+      "end": 231
+    },
+    "context": "不限量 间 大师内墙底层腻子 5 门套基层 1 套 E0级细木工板 6 石膏线 不限量 间 单层石膏线（侧面≦13cm） 7 墙顶面涂料 不限量 间 大师净味优易涂高",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 257,
+      "end": 260
+    },
+    "context": "细木工板 6 石膏线 不限量 间 单层石膏线（侧面≦13cm） 7 墙顶面涂料 不限量 间 大师净味优易涂高效内墙乳胶漆 8 墙面网格布处理 不限量 间 专用网格布 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 288,
+      "end": 291
+    },
+    "context": " 7 墙顶面涂料 不限量 间 大师净味优易涂高效内墙乳胶漆 8 墙面网格布处理 不限量 间 专用网格布 9 入户门套（单套） 不限量 间 派的木门/欧派木门/桔+定制",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 311,
+      "end": 314
+    },
+    "context": "效内墙乳胶漆 8 墙面网格布处理 不限量 间 专用网格布 9 入户门套（单套） 不限量 间 派的木门/欧派木门/桔+定制生态门套 10 防盗门 1 套 富新/盼盼 1",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 396,
+      "end": 399
+    },
+    "context": "智能门锁 1 把 惠普智芯/盼盼/芯安等 二、 餐厅 硬装 部分 1 地面找平 不限量 间 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地板 不",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 438,
+      "end": 441
+    },
+    "context": "量 间 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地板 不限量 间 圣象/八方地板/卢森地板铺贴区域 3 踢脚线 不限量 间 杉木实木踢脚线、",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 467,
+      "end": 470
+    },
+    "context": "0元/平） 2 地板 不限量 间 圣象/八方地板/卢森地板铺贴区域 3 踢脚线 不限量 间 杉木实木踢脚线、配套压条 4 墙顶面批嵌 不限量 间 大师内墙底层腻子 5",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 494,
+      "end": 497
+    },
+    "context": "地板铺贴区域 3 踢脚线 不限量 间 杉木实木踢脚线、配套压条 4 墙顶面批嵌 不限量 间 大师内墙底层腻子 5 石膏线 不限量 间 单层石膏线（侧面≦13cm） 6",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 515,
+      "end": 518
+    },
+    "context": "实木踢脚线、配套压条 4 墙顶面批嵌 不限量 间 大师内墙底层腻子 5 石膏线 不限量 间 单层石膏线（侧面≦13cm） 6 墙顶面涂料 不限量 间 大师净味优易涂高",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 544,
+      "end": 547
+    },
+    "context": "底层腻子 5 石膏线 不限量 间 单层石膏线（侧面≦13cm） 6 墙顶面涂料 不限量 间 大师净味优易涂高效内墙乳胶漆 7 墙面网格布处理 不限量 间 专用网格布 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 575,
+      "end": 578
+    },
+    "context": " 6 墙顶面涂料 不限量 间 大师净味优易涂高效内墙乳胶漆 7 墙面网格布处理 不限量 间 专用网格布 三、卧室 硬装 部分 1 地面找平 不限量 间 石膏基自流平找",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 605,
+      "end": 608
+    },
+    "context": "7 墙面网格布处理 不限量 间 专用网格布 三、卧室 硬装 部分 1 地面找平 不限量 间 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地板 不",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 647,
+      "end": 650
+    },
+    "context": "量 间 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地板 不限量 间 圣象/八方地板/卢森地板铺贴区域 3 踢脚线 不限量 间 杉木实木踢脚线、",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 676,
+      "end": 679
+    },
+    "context": "0元/平） 2 地板 不限量 间 圣象/八方地板/卢森地板铺贴区域 3 踢脚线 不限量 间 杉木实木踢脚线、配套压条 4 墙顶面批嵌 不限量 间 大师内墙底层腻子 5",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 703,
+      "end": 706
+    },
+    "context": "地板铺贴区域 3 踢脚线 不限量 间 杉木实木踢脚线、配套压条 4 墙顶面批嵌 不限量 间 大师内墙底层腻子 5 门套基层 1 套 E0级细木工板 6 门及门套 1 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 773,
+      "end": 776
+    },
+    "context": "木工板 6 门及门套 1 套 派的木门/欧派木门/桔+定制生态门套 7 石膏线 不限量 间 单层石膏线（侧面≦13cm） 8 大理石窗台板 不限量 间 人造大理石，宽",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 803,
+      "end": 806
+    },
+    "context": "态门套 7 石膏线 不限量 间 单层石膏线（侧面≦13cm） 8 大理石窗台板 不限量 间 人造大理石，宽度30cm以内 9 墙顶面涂料 不限量 间 大师净味优易涂高",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 832,
+      "end": 835
+    },
+    "context": "） 8 大理石窗台板 不限量 间 人造大理石，宽度30cm以内 9 墙顶面涂料 不限量 间 大师净味优易涂高效内墙乳胶漆 10 墙面网格布处理 不限量 间 专用网格布",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 864,
+      "end": 867
+    },
+    "context": "9 墙顶面涂料 不限量 间 大师净味优易涂高效内墙乳胶漆 10 墙面网格布处理 不限量 间 专用网格布 四、卫生间 硬装 部分 1 原有墙面冲筋找平 不限量 间 铲到",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 899,
+      "end": 902
+    },
+    "context": "格布处理 不限量 间 专用网格布 四、卫生间 硬装 部分 1 原有墙面冲筋找平 不限量 间 铲到红砖，水泥基冲筋找平； 2 地砖满铺 不限量 间 东鹏/马可波罗/金意",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 926,
+      "end": 929
+    },
+    "context": "分 1 原有墙面冲筋找平 不限量 间 铲到红砖，水泥基冲筋找平； 2 地砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等 （含干区；不限铺垫高度（下沉式卫",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 983,
+      "end": 986
+    },
+    "context": "/依诺/网红系列等 （含干区；不限铺垫高度（下沉式卫生间除外）） 3 墙砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等（含干区） 4 防水 不限量 间 ",
+    "requires_llm": false,
+    "negation_flag": true,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n",
+    "status": "suppressed",
+    "negation_term": "除"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 1020,
+      "end": 1023
+    },
+    "context": "满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等（含干区） 4 防水 不限量 间 墙地面朴乐防水，墙刚（蓝）地柔（蓝绿），墙面上翻2.4米，地面满刷。 5 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 1067,
+      "end": 1070
+    },
+    "context": "地面朴乐防水，墙刚（蓝）地柔（蓝绿），墙面上翻2.4米，地面满刷。 5 门槛石 不限量 间 人造大理石 6 铝扣板吊顶 不限量 间 名族/公牛 7 浴霸、集成照明LE",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 1087,
+      "end": 1090
+    },
+    "context": "面上翻2.4米，地面满刷。 5 门槛石 不限量 间 人造大理石 6 铝扣板吊顶 不限量 间 名族/公牛 7 浴霸、集成照明LED灯 1 个 名族/公牛 8 马桶 1 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 1377,
+      "end": 1380
+    },
+    "context": "工板 16 门及门套 1 套 派的木门/欧派木门/桔+定制生态门套 17 美缝 不限量 间 东方雨虹/可丽芙【多色可选】 五、厨房间 1 原有墙面冲筋找平 不限量 间",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 1415,
+      "end": 1418
+    },
+    "context": "缝 不限量 间 东方雨虹/可丽芙【多色可选】 五、厨房间 1 原有墙面冲筋找平 不限量 间 铲到红砖，水泥基冲筋找平； 2 地砖满铺 不限量 间 东鹏/马可波罗/金意",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 1442,
+      "end": 1445
+    },
+    "context": "间 1 原有墙面冲筋找平 不限量 间 铲到红砖，水泥基冲筋找平； 2 地砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等 3 墙砖满铺 不限量 间 东鹏/",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 1476,
+      "end": 1479
+    },
+    "context": " 地砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等 3 墙砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等 4 门槛石 不限量 间 人造黑金",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 1509,
+      "end": 1512
+    },
+    "context": "3 墙砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等 4 门槛石 不限量 间 人造黑金沙/人造圣米尔黄 5 防水 不限量 间 墙地面朴乐防水，墙刚（蓝）",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 1533,
+      "end": 1536
+    },
+    "context": "/依诺/网红系列等 4 门槛石 不限量 间 人造黑金沙/人造圣米尔黄 5 防水 不限量 间 墙地面朴乐防水，墙刚（蓝）地柔（蓝绿），墙面上翻30cm，地面满刷。 6 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 1582,
+      "end": 1585
+    },
+    "context": "朴乐防水，墙刚（蓝）地柔（蓝绿），墙面上翻30cm，地面满刷。 6 铝扣板吊顶 不限量 间 名族/公牛 7 集成照明LED灯 1 个 名族/公牛 甲方理解此预算书，同",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2297,
+      "end": 2300
+    },
+    "context": "层玻璃，标配4.0型材； 12 烟机灶具 1 套 老板电器/卡萨帝 13 美缝 不限量 间 东方雨虹/可丽芙【多色可选】 六、阳台 硬装 部分 1 原有墙面冲筋找平 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2340,
+      "end": 2343
+    },
+    "context": " 间 东方雨虹/可丽芙【多色可选】 六、阳台 硬装 部分 1 原有墙面冲筋找平 不限量 间 铲到红砖，水泥基冲筋找平； 2 墙砖/地砖满铺 不限量 间 东鹏/马可波罗",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2370,
+      "end": 2373
+    },
+    "context": " 原有墙面冲筋找平 不限量 间 铲到红砖，水泥基冲筋找平； 2 墙砖/地砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等 3 顶面批嵌 不限量 间 大师内",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2404,
+      "end": 2407
+    },
+    "context": "/地砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等 3 顶面批嵌 不限量 间 大师内墙底层腻子 4 顶面涂料 不限量 间 大师净味优易涂高效内墙乳胶漆 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2426,
+      "end": 2429
+    },
+    "context": "陶/依诺/网红系列等 3 顶面批嵌 不限量 间 大师内墙底层腻子 4 顶面涂料 不限量 间 大师净味优易涂高效内墙乳胶漆 5 墙面批嵌 不限量 间 大师内墙底层腻子（",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2454,
+      "end": 2457
+    },
+    "context": "底层腻子 4 顶面涂料 不限量 间 大师净味优易涂高效内墙乳胶漆 5 墙面批嵌 不限量 间 大师内墙底层腻子（铺贴墙砖无此项目） 6 墙面涂料 不限量 间 大师净味优",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2486,
+      "end": 2489
+    },
+    "context": " 5 墙面批嵌 不限量 间 大师内墙底层腻子（铺贴墙砖无此项目） 6 墙面涂料 不限量 间 大师净味优易涂高效内墙乳胶漆（铺贴墙砖无此项目） 7 墙面网格布处理 不限",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2527,
+      "end": 2530
+    },
+    "context": "限量 间 大师净味优易涂高效内墙乳胶漆（铺贴墙砖无此项目） 7 墙面网格布处理 不限量 间 专用网格布（铺贴墙砖无此项目） 8 门套基层 1 套 声达E0级细木工板 ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2603,
+      "end": 2606
+    },
+    "context": "0级细木工板 9 地漏 1 个 【潜水艇】GF40-10B防臭地漏 10 防水 不限量 间 墙地面朴乐防水，墙刚（蓝）地柔（蓝绿），墙面上翻30cm，地面满刷。 11",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2651,
+      "end": 2654
+    },
+    "context": "面朴乐防水，墙刚（蓝）地柔（蓝绿），墙面上翻30cm，地面满刷。 11 门槛石 不限量 间 人造黑金沙/人造圣米尔黄 12 美缝 不限量 间 东方雨虹/可丽芙【多色可",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2676,
+      "end": 2679
+    },
+    "context": "m，地面满刷。 11 门槛石 不限量 间 人造黑金沙/人造圣米尔黄 12 美缝 不限量 间 东方雨虹/可丽芙【多色可选】 七、水电项目 硬装 部分 1 强电改造 点位",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2720,
+      "end": 2723
+    },
+    "context": "间 东方雨虹/可丽芙【多色可选】 七、水电项目 硬装 部分 1 强电改造 点位内不限量 套 低烟无卤阻燃A类线（不含入户线） 2 弱电改造 点位内不限量 套 CAT6",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2753,
+      "end": 2756
+    },
+    "context": "电改造 点位内不限量 套 低烟无卤阻燃A类线（不含入户线） 2 弱电改造 点位内不限量 套 CAT6A超六类高速网线/CAT6六类高速网线 3 水管改造 点位内不限量",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2793,
+      "end": 2796
+    },
+    "context": "不限量 套 CAT6A超六类高速网线/CAT6六类高速网线 3 水管改造 点位内不限量 套 免费升级【爱康保利管业】AG-抗菌管PPR-D25，6分全热水管 4 强弱",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2845,
+      "end": 2848
+    },
+    "context": "康保利管业】AG-抗菌管PPR-D25，6分全热水管 4 强弱电开关插座 点位内不限量 套 公牛：标配G37白色/罗格朗：淳逸白色 5 电线管 不限量 套 中财红蓝分",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2877,
+      "end": 2880
+    },
+    "context": "开关插座 点位内不限量 套 公牛：标配G37白色/罗格朗：淳逸白色 5 电线管 不限量 套 中财红蓝分色 6 开槽及封闭线管槽 不限量 套 公司施工标准所有水电铺设需",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2901,
+      "end": 2904
+    },
+    "context": "/罗格朗：淳逸白色 5 电线管 不限量 套 中财红蓝分色 6 开槽及封闭线管槽 不限量 套 公司施工标准所有水电铺设需开槽的墙面及地面开槽，中央空调及地暖开槽打洞 由",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2962,
+      "end": 2965
+    },
+    "context": "的墙面及地面开槽，中央空调及地暖开槽打洞 由供应商自行完成 7 壁挂电视预埋管 不限量 套 预埋管径50中财PVC管及配件 8 冷热水管道做保温处理 不限量 套 对所",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 2997,
+      "end": 3000
+    },
+    "context": "视预埋管 不限量 套 预埋管径50中财PVC管及配件 8 冷热水管道做保温处理 不限量 套 对所有裸漏部分的冷热水管做保温处理 9 三角阀及软管 不限量 套 免费升级",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 3030,
+      "end": 3033
+    },
+    "context": "道做保温处理 不限量 套 对所有裸漏部分的冷热水管做保温处理 9 三角阀及软管 不限量 套 免费升级潜水艇 八、补充说明 1 本工程套餐的计算面积为【需要装修的地平面",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 3721,
+      "end": 3724
+    },
+    "context": "设门洞时，须在门靠墙转角处或丁字接头墙体的一边设 置木板 2 石膏基自流平找平 不限量，全部找平 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 3 地",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 3770,
+      "end": 3773
+    },
+    "context": "石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 3 地面地固涂刷 不限量 项目说明：对拆除完的地面进行一遍地固涂刷，呈绿色。 4 墙面墙固 不限量 1、",
+    "requires_llm": false,
+    "negation_flag": true,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n",
+    "status": "suppressed",
+    "negation_term": "除"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 3807,
+      "end": 3810
+    },
+    "context": "涂刷 不限量 项目说明：对拆除完的地面进行一遍地固涂刷，呈绿色。 4 墙面墙固 不限量 1、项目说明：墙面滚刷墙固一遍，呈黄色 2、如墙面需铲除红砖进行水泥修复，则不",
+    "requires_llm": false,
+    "negation_flag": true,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n",
+    "status": "suppressed",
+    "negation_term": "除"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 3866,
+      "end": 3869
+    },
+    "context": "，呈黄色 2、如墙面需铲除红砖进行水泥修复，则不需涂刷墙固。 5 顶面批刮腻子 不限量 1、项目说明：批刮两遍腻子，打磨。石膏板顶面，所有接缝处，用填缝膏修复后，进行",
+    "requires_llm": false,
+    "negation_flag": true,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n",
+    "status": "suppressed",
+    "negation_term": "除"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 3969,
+      "end": 3972
+    },
+    "context": "墙高超过2800mm以外部分及斜顶、尖顶等异形部分单独收费。 6 墙面批刮腻子 不限量 1、项目说明：墙面找平处理后，进行批刮两遍腻子，打磨。石膏板顶面，所有接缝处，",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4095,
+      "end": 4098
+    },
+    "context": "高超过2800mm以外部分及斜顶、尖顶等异形部分单独收费。 7 墙面网格布处理 不限量，所有可见墙面 专用网格布 8 墙顶面乳胶漆 不限量，所有可见顶面 1、项目说明",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4121,
+      "end": 4124
+    },
+    "context": "收费。 7 墙面网格布处理 不限量，所有可见墙面 专用网格布 8 墙顶面乳胶漆 不限量，所有可见顶面 1、项目说明：大师净味优易涂高效内墙乳胶漆 2、每户仅限选一种品",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4217,
+      "end": 4220
+    },
+    "context": "含白色）；3、一遍底漆、两遍面漆。备注：深色另计。 9 墙顶面高级阳角修护处理 不限量 1、材料选用PVC护角条、拉法基石膏，大师内墙底层腻子含人工及材料费用。（不锈",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4342,
+      "end": 4345
+    },
+    "context": "m石膏线，圆弧、异型、描金等费用另算。 二、卧室施工内容 1 石膏基自流平找平 不限量，全部找平 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4391,
+      "end": 4394
+    },
+    "context": "石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地面地固涂刷 不限量 项目说明：对拆除完的地面进行一遍地固涂刷，呈绿色。 3 墙面墙固 不限量 项目",
+    "requires_llm": false,
+    "negation_flag": true,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n",
+    "status": "suppressed",
+    "negation_term": "除"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4428,
+      "end": 4431
+    },
+    "context": "涂刷 不限量 项目说明：对拆除完的地面进行一遍地固涂刷，呈绿色。 3 墙面墙固 不限量 项目说明：墙面滚刷墙固一遍，呈黄色。 4 门套基层 1套 声达E0级细木工板，",
+    "requires_llm": false,
+    "negation_flag": true,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n",
+    "status": "suppressed",
+    "negation_term": "除"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4525,
+      "end": 4528
+    },
+    "context": "上开设门洞时，须在门靠墙转角处或丁字接头墙体的一 边设置木板 5 顶面批刮腻子 不限量 1、项目说明：批刮两遍腻子，打磨。石膏板顶面，所有接缝处，用填缝膏修复后，进行",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4629,
+      "end": 4632
+    },
+    "context": "、墙高超过2800mm以外部分及斜顶、尖顶等异形部分单独收费 6 墙面批刮腻子 不限量 1、项目说明：墙面找平处理后，进行批刮两遍腻子，打磨。石膏板顶面，所有接缝处，",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4746,
+      "end": 4749
+    },
+    "context": "墙高超过2800mm以外部分及斜顶、尖顶等异形部分单独收费 7 墙面网格布处理 不限量，所有可见墙面 专用网格布 8 大理石窗台板 不限量 人造大理石，宽度30cm以",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4772,
+      "end": 4775
+    },
+    "context": "独收费 7 墙面网格布处理 不限量，所有可见墙面 专用网格布 8 大理石窗台板 不限量 人造大理石，宽度30cm以内 9 墙顶面乳胶漆 不限量，所有可见顶面 1、项目",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4800,
+      "end": 4803
+    },
+    "context": "格布 8 大理石窗台板 不限量 人造大理石，宽度30cm以内 9 墙顶面乳胶漆 不限量，所有可见顶面 1、项目说明：大师净味优易涂高效内墙乳胶漆 2、每户仅限选一种品",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 4897,
+      "end": 4900
+    },
+    "context": "白色）；3、一遍底漆、两遍面漆。备注：深色另计。 10 墙顶面高级阳角修护处理 不限量 1、材料选用PVC护角条、拉法基石膏，大师内墙底层腻子，含人工及材料费用。（不",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5086,
+      "end": 5089
+    },
+    "context": "设门洞时，须在门靠墙转角处或丁字接头墙体的一边设 置木板 2 原有墙面冲筋找平 不限量，所有可见墙面 铲到红砖，水泥基冲筋找平； 3 地面水泥沙浆找平 不限量，全部找",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5122,
+      "end": 5125
+    },
+    "context": "筋找平 不限量，所有可见墙面 铲到红砖，水泥基冲筋找平； 3 地面水泥沙浆找平 不限量，全部找平 1、项目说明：铺砖黄沙水泥垫层，高度四cm以内 2、42.5复合硅酸",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5294,
+      "end": 5297
+    },
+    "context": "】 序号 施工项目名称 用量说明 （材料名称，品牌、等级、规格） 4 防水处理 不限量 墙地面朴乐防水，墙刚（蓝）地柔（蓝绿），地面满涂，墙面上翻30cm 5 墙/地",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5341,
+      "end": 5344
+    },
+    "context": "朴乐防水，墙刚（蓝）地柔（蓝绿），地面满涂，墙面上翻30cm 5 墙/地砖铺贴 不限量，所有可见墙面 42.5水泥、黄沙、普通瓷砖专用粘结剂。标配300*300瓷片铺",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5458,
+      "end": 5461
+    },
+    "context": "非标规格、玻化砖上墙刷背胶等费用按公司ERP定额另计。 6 墙砖阳角45°磨边 不限量 窗角、柱子角、墙角（阳角）位置 7 美缝剂 不限量 【东方雨虹/可丽芙】美缝剂",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5484,
+      "end": 5487
+    },
+    "context": "。 6 墙砖阳角45°磨边 不限量 窗角、柱子角、墙角（阳角）位置 7 美缝剂 不限量 【东方雨虹/可丽芙】美缝剂 8 厨房门槛石 不限长度宽度 人造大理石，42.5",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5547,
+      "end": 5550
+    },
+    "context": "槛石 不限长度宽度 人造大理石，42.5复合硅酸盐水泥+中沙。 9 封污水管道 不限量 42.5水泥、黄沙、常规尺寸砖，表面水泥砂浆抹平。保留原有检修口，但不含观察口",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5614,
+      "end": 5617
+    },
+    "context": "平。保留原有检修口，但不含观察口制作 10 水槽安装（配套下水管件） 免费安装，不限量 人工安装，中性防霉硅胶 四、卫生间施工内容 1 门套基层 1套 E0级细木工板",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5714,
+      "end": 5717
+    },
+    "context": "设门洞时，须在门靠墙转角处或丁字接头墙体的一边设 置木板 2 原有墙面冲筋找平 不限量，所有可见墙面 铲到红砖，水泥基冲筋找平； 3 地面水泥沙浆找平 不限量，全部找",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5750,
+      "end": 5753
+    },
+    "context": "筋找平 不限量，所有可见墙面 铲到红砖，水泥基冲筋找平； 3 地面水泥沙浆找平 不限量，全部找平 1、项目说明：铺砖黄沙水泥垫层，高度40mm以内 2、42.5复合硅",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5808,
+      "end": 5811
+    },
+    "context": "黄沙水泥垫层，高度40mm以内 2、42.5复合硅酸盐水泥+中沙 4 防水处理 不限量 墙地面朴乐防水，墙刚（蓝）地柔（蓝绿），四周墙面2.4米，地面满涂 5 墙/地",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5855,
+      "end": 5858
+    },
+    "context": "朴乐防水，墙刚（蓝）地柔（蓝绿），四周墙面2.4米，地面满涂 5 墙/地砖铺贴 不限量，所有可见墙面 42.5水泥、黄沙、普通瓷砖专用粘结剂。标配300*300瓷片铺",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5972,
+      "end": 5975
+    },
+    "context": "非标规格、玻化砖上墙刷背胶等费用按公司ERP定额另计。 6 墙砖阳角45°磨边 不限量 窗角、柱子角、墙角（阳角）位置 7 美缝剂 不限量 【东方雨虹/可丽芙】美缝剂",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 5998,
+      "end": 6001
+    },
+    "context": "。 6 墙砖阳角45°磨边 不限量 窗角、柱子角、墙角（阳角）位置 7 美缝剂 不限量 【东方雨虹/可丽芙】美缝剂 8 卫生间大理石门槛 不限长度宽度 人造大理石，4",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 6182,
+      "end": 6185
+    },
+    "context": "石挡水条 1根 人造大理石，42.5复合硅酸盐水泥+中沙。 12 三角阀+软管 不限量 潜水艇三角阀及软管 13 地漏 2个 潜水艇GF40-10B防臭地漏 五、阳台",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 6241,
+      "end": 6244
+    },
+    "context": " 2个 潜水艇GF40-10B防臭地漏 五、阳台施工内容 1 原有墙面冲筋找平 不限量，所有可见墙面 铲到红砖，水泥基冲筋找平； 2 门套基层 1套 E0级细木工板，",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 6338,
+      "end": 6341
+    },
+    "context": "上开设门洞时，须在门靠墙转角处或丁字接头墙体的一边设 置木板 3 阳台地面防水 不限量 墙地面朴乐防水，墙刚（蓝）地柔（蓝绿），地面满涂，墙面上翻30cm 4 地面水",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 6387,
+      "end": 6390
+    },
+    "context": "防水，墙刚（蓝）地柔（蓝绿），地面满涂，墙面上翻30cm 4 地面水泥沙浆找平 不限量，全部找平 1、项目说明：铺砖黄沙水泥垫层，高度40mm以内 2、品牌：42.5",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 6450,
+      "end": 6453
+    },
+    "context": "层，高度40mm以内 2、品牌：42.5复合硅酸盐水泥+中沙 5 墙/地砖铺贴 不限量，所有可见墙面 42.5水泥、黄沙、普通瓷砖专用粘结剂。标配300*300瓷片铺",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 6561,
+      "end": 6564
+    },
+    "context": "砖对缝、瓷片非标规格、玻化砖上墙刷背胶等费用按公司ERP定额另计。 6 美缝剂 不限量 【东方雨虹/可丽芙】美缝剂 7 顶面批刮腻子 不限量 1、项目说明：批刮两遍腻",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 6588,
+      "end": 6591
+    },
+    "context": "P定额另计。 6 美缝剂 不限量 【东方雨虹/可丽芙】美缝剂 7 顶面批刮腻子 不限量 1、项目说明：批刮两遍腻子，打磨。石膏板顶面，所有接缝处，用填缝膏修复后，进行",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 6704,
+      "end": 6707
+    },
+    "context": "部分及斜顶、尖顶等异形部分单独收费 4、如墙面贴墙砖则无此项目。 8 墙面墙固 不限量 1、项目说明：墙面滚刷墙固一遍，呈黄色 2、如墙面贴墙砖则无此项目。 9 墙面",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 6752,
+      "end": 6755
+    },
+    "context": "说明：墙面滚刷墙固一遍，呈黄色 2、如墙面贴墙砖则无此项目。 9 墙面批刮腻子 不限量 1、项目说明：墙面找平处理后，进行批刮两遍腻子，打磨。石膏板顶面，所有接缝处，",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 6884,
+      "end": 6887
+    },
+    "context": "顶、尖顶等异形部分单独收费 4、如墙面贴墙砖则无此项目。 10 墙面网格布处理 不限量，所有可见墙面 专用网格布；如墙面贴墙砖则无此项目 甲方理解此预算书，同意施工（",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 7038,
+      "end": 7041
+    },
+    "context": "号 施工项目名称 用量说明 （材料名称，品牌、等级、规格） 11 墙顶面乳胶漆 不限量，所有可见顶面 1、项目说明：大师净味优易涂高效内墙乳胶漆 2、每户仅限选一种品",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 7187,
+      "end": 7190
+    },
+    "context": "宽度 人造大理石，42.5复合硅酸盐水泥+中沙。 13 墙顶面高级阳角修护处理 不限量 1、材料选用PVC护角条、拉法基石膏，含人工及材料费用。（不锈钢阳角条费用另计",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 7278,
+      "end": 7281
+    },
+    "context": "1个 潜水艇GF40-10B防臭地漏 六、水电及其它项目工程 1 强电线 点位内不限量 导线1.5平方、2.5平方、4平方厨房进线及空调立式柜机进线（不含6平方、10",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 7342,
+      "end": 7345
+    },
+    "context": "线及空调立式柜机进线（不含6平方、10平方）单芯线，原线全换 2 弱电线 点位内不限量 弱电终端到弱电箱点到点（含有线电视线、网络线、电话线） 3 水管改造 点位内不",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 7384,
+      "end": 7387
+    },
+    "context": "量 弱电终端到弱电箱点到点（含有线电视线、网络线、电话线） 3 水管改造 点位内不限量 【爱康保利管业】AG-抗菌管，6分PP-R水管 壁厚4.2mm， 试压：压力控",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 7477,
+      "end": 7480
+    },
+    "context": "0分钟至1小时） 注：不含循环水、水处理系统、一寸水管 4 灯头盒及盖板 点位内不限量 桔+整装定制，强电红色，弱电蓝色 5 电线管及水管开槽（含砖槽 、混泥土槽） ",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 7523,
+      "end": 7526
+    },
+    "context": "整装定制，强电红色，弱电蓝色 5 电线管及水管开槽（含砖槽 、混泥土槽） 点位内不限量 桔+整装定制 强电红色，弱电蓝色（配件同色），公司施工标准水电铺设所有需开槽部",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 7608,
+      "end": 7611
+    },
+    "context": "墙面及地面不开 槽。中央空调及地暖开槽打洞由供应商自行完成 6 壁挂电视预埋管 不限量 预埋管径50【中财】PVC管及配件 7 强电箱 1个 原有强电配电箱保留，人工",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 7724,
+      "end": 7727
+    },
+    "context": ",电话,网线弱电箱原位整理，不含配件，不含水晶头安装 9 冷热水管道做保温处理 不限量 对所有裸漏部分的冷热水管做保温处理 七、补充说明 1 本工程套餐的计算面积为【",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 8342,
+      "end": 8345
+    },
+    "context": "01版】 序号 材料名称 标配数量 单位 备注 一、 客厅 主材部分 1 地板 不限量 间 圣象/八方地板/卢森地板,地板铺贴区域 2 踢脚线 不限量 间 杉木实木踢",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 8374,
+      "end": 8377
+    },
+    "context": "部分 1 地板 不限量 间 圣象/八方地板/卢森地板,地板铺贴区域 2 踢脚线 不限量 间 杉木实木踢脚线、配套压条 3 入户门套（单面） 1 套 派的木门/欧派木门",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 8480,
+      "end": 8483
+    },
+    "context": "盼盼 5 智能锁 1 把 惠普智芯/盼盼/芯安等 二、餐厅 主材部分 1 地板 不限量 间 圣象/八方地板/卢森地板，地板铺贴区域 2 踢脚线 不限量 间 杉木实木踢",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 8512,
+      "end": 8515
+    },
+    "context": "部分 1 地板 不限量 间 圣象/八方地板/卢森地板，地板铺贴区域 2 踢脚线 不限量 间 杉木实木踢脚线、配套压条 三、卧室 主材部分 1 地板 不限量 间 圣象/",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 8546,
+      "end": 8549
+    },
+    "context": "2 踢脚线 不限量 间 杉木实木踢脚线、配套压条 三、卧室 主材部分 1 地板 不限量 间 圣象/八方地板/卢森地板，地板铺贴区域 2 踢脚线 不限量 间 杉木实木踢",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 8578,
+      "end": 8581
+    },
+    "context": "部分 1 地板 不限量 间 圣象/八方地板/卢森地板，地板铺贴区域 2 踢脚线 不限量 间 杉木实木踢脚线、配套压条 3 门及门套 1 套 派的木门/欧派木门/桔+定",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 8646,
+      "end": 8649
+    },
+    "context": "套 派的木门/欧派木门/桔+定制生态门套 四、卫生间 主材部分 1 墙地砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等（含干区），墙砖300*600，地",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 8708,
+      "end": 8711
+    },
+    "context": "红系列等（含干区），墙砖300*600，地砖300*300 2 铝扣板吊顶 满铺不限量 间 名族/公牛 3 浴霸三合一/集成照明 LED灯 1 个 名族/公牛 4 马",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 8955,
+      "end": 8958
+    },
+    "context": "玻（含3.5平，高度距地面1.8-2米） 五、厨房间 主材部分 1 墙地砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等（墙砖300*600，地砖300*",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 9011,
+      "end": 9014
+    },
+    "context": "陶/依诺/网红系列等（墙砖300*600，地砖300*300） 2 铝扣板吊顶 不限量 间 名族/公牛 3 集成照明LED灯 1 个 名族/公牛 4 橱柜 1 套 【",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 9627,
+      "end": 9630
+    },
+    "context": "； 7 烟机灶具 1 套 老板电器/卡萨帝 七、阳台 主材部分 1 墙地砖满铺 不限量 间 东鹏/马可波罗/金意陶/依诺/网红系列等，墙砖300*600，地砖300*",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限量",
+    "location": {
+      "start": 11162,
+      "end": 11165
+    },
+    "context": "序号 项目 标配数量 单位 备注 赠送项目 1 所有灯具安装 免费赠送 普通灯具不限量（水晶灯，特殊灯具另计） 2 成品保护 免费赠送 原有窗户玻璃保护、电梯口墙地面",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限厚度",
+    "location": {
+      "start": 105,
+      "end": 109
+    },
+    "context": "单位 备注 一、 客厅 硬装 部分 1 地面找平 不限量 间 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地板 不限量 间 圣象/八方地板/卢森地",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限厚度",
+    "location": {
+      "start": 411,
+      "end": 415
+    },
+    "context": "盼/芯安等 二、 餐厅 硬装 部分 1 地面找平 不限量 间 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地板 不限量 间 圣象/八方地板/卢森地",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限厚度",
+    "location": {
+      "start": 620,
+      "end": 624
+    },
+    "context": " 专用网格布 三、卧室 硬装 部分 1 地面找平 不限量 间 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地板 不限量 间 圣象/八方地板/卢森地",
+    "requires_llm": false,
+    "negation_flag": false,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限厚度",
+    "location": {
+      "start": 3739,
+      "end": 3743
+    },
+    "context": "墙体的一边设 置木板 2 石膏基自流平找平 不限量，全部找平 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 3 地面地固涂刷 不限量 项目说明：对拆除完",
+    "requires_llm": false,
+    "negation_flag": true,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n",
+    "status": "suppressed",
+    "negation_term": "除"
+  },
+  {
+    "rule_id": "construction.unlimited_item_trap",
+    "severity": "medium",
+    "anchor_type": "text_span",
+    "matched_text": "不限厚度",
+    "location": {
+      "start": 4360,
+      "end": 4364
+    },
+    "context": "。 二、卧室施工内容 1 石膏基自流平找平 不限量，全部找平 石膏基自流平找平，不限厚度 （地暖找平另补材料费50元/平） 2 地面地固涂刷 不限量 项目说明：对拆除完",
+    "requires_llm": false,
+    "negation_flag": true,
+    "recommendation": "核实“不限量”的真实覆盖范围，特别是地面找平、墙面腻子等基础工程的厚度和工艺要求。\n",
+    "status": "suppressed",
+    "negation_term": "除"
+  },
+  {
+    "rule_id": "construction.brand_spec_vagueness",
+    "severity": "high",
+    "anchor_type": "evidence_span",
+    "matched_text": "芯安等",
+    "location": {
+      "start": 373,
+      "end": 376
+    },
+    "context": "门套 10 防盗门 1 套 富新/盼盼 11 智能门锁 1 把 惠普智芯/盼盼/芯安等 二、 餐厅 硬装 部分 1 地面找平 不限量 间 石膏基自流平找平，不限厚度 ",
+    "requires_llm": true,
+    "negation_flag": false,
+    "recommendation": "要求明确单一品牌及具体系列型号，并在附件中附上样板图片或封样。\n",
+    "is_validated": true,
+    "reason": "合同片段列出了多个品牌作为选项（如“富新/盼盼”、“惠普智芯/盼盼/芯安等”），但缺乏要求单一品牌及具体系列型号的明确性，并且没有提及附件或样板图片的要求。这违反了“要求明确单一品牌及具体系列型号，并在附件中附上样板图片或封样”的风险规则，存在品牌选择不明确的风险。",
+    "evidence_spans": [
+      {
+        "text": "富新/盼盼",
+        "importance": "core"
+      },
+      {
+        "text": "惠普智芯/盼盼/芯安等",
+        "importance": "core"
+      }
+    ],
+    "confidence": 0.95
+  },
+  {
+    "rule_id": "construction.brand_spec_vagueness",
+    "severity": "high",
+    "anchor_type": "evidence_span",
+    "matched_text": "圣象/八方地板/卢森地板",
+    "location": {
+      "start": 8552,
+      "end": 8564
+    },
+    "context": "不限量 间 杉木实木踢脚线、配套压条 三、卧室 主材部分 1 地板 不限量 间 圣象/八方地板/卢森地板，地板铺贴区域 2 踢脚线 不限量 间 杉木实木踢脚线、配套压条 3 门及门套 ",
+    "requires_llm": true,
+    "negation_flag": false,
+    "recommendation": "要求明确单一品牌及具体系列型号，并在附件中附上样板图片或封样。\n",
+    "is_validated": true,
+    "reason": "合同片段列出了多个品牌的备选选项（圣象/八方地板/卢森地板），这违背了风险规则要求的“明确单一品牌”。虽然列出了物料名称，但在品牌选择上存在模糊和选择性，且缺乏具体型号和样板的指引。",
+    "evidence_spans": [
+      {
+        "text": "圣象/八方地板/卢森地板",
+        "importance": "core"
+      }
+    ],
+    "confidence": 0.95
+  },
+  {
+    "rule_id": "construction.brand_spec_vagueness",
+    "severity": "high",
+    "anchor_type": "evidence_span",
+    "matched_text": "芯安等",
+    "location": {
+      "start": 8461,
+      "end": 8464
+    },
+    "context": "制生态门套 4 防盗门 1 樘 富新/盼盼 5 智能锁 1 把 惠普智芯/盼盼/芯安等 二、餐厅 主材部分 1 地板 不限量 间 圣象/八方地板/卢森地板，地板铺贴区",
+    "requires_llm": true,
+    "negation_flag": false,
+    "recommendation": "要求明确单一品牌及具体系列型号，并在附件中附上样板图片或封样。\n",
+    "is_validated": true,
+    "reason": "该合同片段在指定物品（如防盗门、地板、智能锁）的品牌选择上，使用了“/”分隔符列出了多个可选项（如富新/盼盼、惠普智芯/盼盼/芯安、圣象/八方地板/卢森地板），但并未明确要求锁定单个品牌，而是提供了多个品牌备选，且未提及附件或样板图片作为确认依据，这符合‘要求明确单一品牌’的规则要求。具体而言，它列举了多个非单一选项，增强了选择的模糊性。",
+    "evidence_spans": [
+      {
+        "text": "富新/盼盼",
+        "importance": "core"
+      },
+      {
+        "text": "惠普智芯/盼盼/芯安等",
+        "importance": "core"
+      },
+      {
+        "text": "圣象/八方地板/卢森地板",
+        "importance": "core"
+      }
+    ],
+    "confidence": 0.95
+  }
+]
