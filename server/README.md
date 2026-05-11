@@ -71,7 +71,7 @@ HTTP_PROXY=http://127.0.0.1:51809 HTTPS_PROXY=http://127.0.0.1:51809 UV_HTTP_TIM
 
 ## Core Endpoints
 
-For a complete Chinese API reference with request fields, permissions, responses, and end-to-end use cases, see `../docs/api-reference.md`.
+For a complete Chinese API reference with request fields, permissions, responses, and end-to-end use cases, see `../docs/api-reference.md`. For a lawyer-friendly frontend onboarding guide, see `../docs/frontend-quickstart-for-legal.md`.
 
 ```text
 GET  /health

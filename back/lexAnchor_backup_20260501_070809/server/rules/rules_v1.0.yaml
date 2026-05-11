@@ -1,5 +1,0 @@
-version: "1.0"
-extends: rules_v0.3
-domain: contract
-contract_scope: saas_vendor
-rules: []

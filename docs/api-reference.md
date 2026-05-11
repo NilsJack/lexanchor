@@ -4,6 +4,8 @@
 
 当前服务器能力包括：session token、membership-backed RBAC、合同文本/文件扫描、规则集查看、报告下载、PDF 批注产物、Action Anchor 状态流转、审计日志、规则草案生成、文本脱敏预览、以及面向律师工作台的 UI 建议数据。
 
+如果接手人是法律背景、负责前端产品和页面落地，请先读 [frontend-quickstart-for-legal.md](frontend-quickstart-for-legal.md)。那份文档从锚点概念、律师工作流、竞品差异和前端信息架构讲起。
+
 ## 1. 基础信息
 
 开发服务默认地址：

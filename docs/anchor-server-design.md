@@ -192,7 +192,7 @@ Later rules with the same `rule_id` override earlier rules. New `rule_id` values
 
 ## 7. API Surface
 
-Complete implemented API details and workflow use cases are documented in [api-reference.md](api-reference.md).
+Complete implemented API details and workflow use cases are documented in [api-reference.md](api-reference.md). A lawyer-friendly frontend onboarding guide is available in [frontend-quickstart-for-legal.md](frontend-quickstart-for-legal.md).
 
 v0.1 endpoints:
 

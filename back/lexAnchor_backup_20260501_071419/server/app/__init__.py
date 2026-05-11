@@ -1,1 +1,0 @@
-"""LexAnchor server package."""
